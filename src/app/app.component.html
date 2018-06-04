@@ -15,5 +15,5 @@
 <br>
 <button (mouseover)="test1($event)">TEST MOUSE-OVER</button>
 <br>
-<input type="text" (input)="changeText(coucou.value)" #coucou/>
+<input type="text" (input)="changeText(coucou.value)" value="{{user.name}}" #coucou/>
 <button (click)="logInputValue(coucou.value)">OK</button>

@@ -27,6 +27,7 @@ export class AppComponent {
 
   changeText(text) {
     console.log('coucou : ', text);
+    this.user.name = text;
   }
 
   logInputValue(val) {
